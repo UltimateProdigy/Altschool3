@@ -1,0 +1,73 @@
+@import url("https://fonts.googleapis.com/css2?family=Sofia+Sans:ital,wght@0,1..1000;1,1..1000&display=swap");
+
+body {
+	background-color: rgb(246, 251, 255);
+	font-family: "Sofia Sans", serif;
+	display: flex;
+	justify-content: space-around;
+    flex-wrap: wrap;
+}
+img {
+	width: 100px;
+}
+.hero {
+    margin-top: 15vh;
+}
+.hero p {
+	color: #737373;
+	width: 400px;
+}
+.hero h1 {
+	font-size: 2.5em;
+}
+
+.custom-form {
+	background-color: white;
+	padding: 20px;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+	border-radius: 5px;
+}
+
+.form-row {
+	display: flex;
+	flex-direction: column;
+	margin-bottom: 15px;
+}
+
+.form-row label {
+	margin-bottom: 5px;
+	font-weight: bold;
+	color: #333;
+}
+
+.form-row input {
+	padding: 10px;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	font-size: 16px;
+}
+.form-row select {
+	padding: 10px;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	font-size: 16px;
+	background-color: white;
+}
+.btn {
+	padding: 10px;
+	width: 100%;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	color: white;
+	font-size: 16px;
+	background-color: #2ec4b6;
+}
+span {
+	color: #2ec4b6;
+	text-decoration: underline;
+}
+.grid {
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	gap: 20px;
+}

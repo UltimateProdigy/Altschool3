@@ -1,0 +1,38 @@
+body {
+	font-family: Arial, sans-serif;
+	background-color: peru;
+	margin: 0;
+	padding: 0;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	background-image: url("/img/bg.jpg");
+	background-size: cover;
+	gap: 40px;
+}
+.introduction {
+	width: 50%;
+}
+
+.button_container {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 10px;
+}
+button {
+	padding: 10px 20px;
+	background-color: #4caf50;
+	color: white;
+	border: none;
+	cursor: pointer;
+	border-radius: 5px;
+    border: 2px solid #abbaab;
+}
+
+button:hover {
+	background-color: #82dc87;
+	cursor: pointer;
+    transition: 0.5s;
+}

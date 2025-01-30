@@ -1,0 +1,40 @@
+body {
+	background-color: #b9b2c0;
+	display: flex;
+	justify-content: center;
+}
+
+section {
+	width: 400px;
+}
+.header_container {
+	background-image: url("/img/watch.jpg");
+	background-size: contain;
+	background-repeat: no-repeat;
+	height: 300px;
+	width: 400px;
+	border-radius: 20px 20px 0px 0px;
+}
+.header {
+	background-color: blanchedalmond;
+	width: 180px;
+	display: flex;
+	justify-content: center;
+	border-radius: 5px 20px 20px 5px;
+	position: relative;
+	top: 20px;
+	right: 20px;
+}
+.description {
+	background-color: #fff;
+	margin-top: -30px;
+	padding: 10px;
+}
+.description_header {
+	display: flex;
+	gap: 10px;
+}
+
+.description_header p {
+	padding-top: 10px;
+}
