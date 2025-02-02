@@ -1,0 +1,70 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap");
+
+body {
+	background-color: #f5f8fa;
+	padding-inline: 15px;
+	color: #1d2c3c;
+	font-family: "Lato", serif;
+}
+nav {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	ul {
+		display: flex;
+		gap: 50px;
+		text-decoration: none;
+		li {
+			list-style: none;
+			button {
+				cursor: pointer;
+				background-color: #fff;
+				border-radius: 5px;
+				padding: 5px;
+				padding-inline: 15px;
+				border-color: #646e7a;
+				margin-top: -30px;
+				color: #1d2c3c;
+			}
+		}
+	}
+}
+
+hr {
+	border: 1px solid #e0e6ea;
+}
+.form-container {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.outer-container {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.form {
+	display: flex;
+	flex-direction: column;
+	border-radius: 10px 0 0 10px;
+	gap: 10px;
+	margin-top: 20px;
+	border: 1px solid grey;
+	box-shadow: 0 0 5px grey;
+	height: 400px;
+	width: 400px;
+	padding: 10px;
+}
+.second-form {
+	display: flex;
+	background-color: #1179BF;
+	flex-direction: column;
+	border-radius: 0 10px 10px 0;
+	gap: 10px;
+	margin-top: 20px;
+	border: 1px solid grey;
+	box-shadow: 0 0 5px grey;
+	height: 400px;
+	width: 150px;
+	padding: 10px;
+}
