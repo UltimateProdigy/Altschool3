@@ -1,0 +1,155 @@
+@font-face {
+	font-family: "Gilroy";
+	src: url("/fonts/Gilroy-Regular.ttf") format("truetype"),
+		url("/fonts/Gilroy-Bold.ttf") format("truetype");
+	font-weight: normal;
+	font-style: normal;
+}
+
+body {
+	font-family: "Gilroy";
+	margin: 0;
+}
+
+nav {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding-inline: 30px;
+	ul {
+		display: flex;
+		gap: 50px;
+		text-decoration: none;
+		li {
+			list-style: none;
+			cursor: pointer;
+			button {
+				cursor: pointer;
+				background-color: #fff;
+				border-radius: 5px;
+				padding: 5px;
+				padding-inline: 15px;
+				border-color: #646e7a;
+				margin-top: -30px;
+				color: #1d2c3c;
+			}
+		}
+	}
+}
+
+nav ul li:hover {
+	color: #0065fe;
+}
+
+.sign_in_container {
+	display: flex;
+	gap: 20px;
+	p {
+		color: #0065fe;
+		cursor: pointer;
+	}
+	button {
+		color: white;
+		border: none;
+		border-radius: 20px;
+		background: #0065fe;
+		height: 40px;
+		margin-top: 5px;
+		padding-inline: 30px;
+		cursor: pointer;
+	}
+}
+
+.hero {
+	margin-top: 100px;
+	padding-inline: 30px;
+	h1 {
+		font-size: 50px;
+        font-weight: 700;
+		span {
+			color: #0065fe;
+		}
+	}
+}
+
+.sign_up_container {
+	display: flex;
+	gap: 20px;
+	p {
+		color: #0065fe;
+		cursor: pointer;
+	}
+	button {
+		color: white;
+		border: none;
+		border-radius: 20px;
+		background: #0065fe;
+		height: 40px;
+		margin-top: 5px;
+		padding-inline: 30px;
+		cursor: pointer;
+	}
+}
+
+.url {
+	background: #fefefe;
+	border: 1px solid #0065fe;
+	height: 150px;
+	width: 700px;
+	border-radius: 20px;
+	margin-top: 50px;
+	padding: 20px;
+	img {
+		margin-left: 30px;
+		margin-top: 10px;
+		width: 300px;
+	}
+	p {
+		width: 400px;
+	}
+}
+
+.achievements {
+	display: flex;
+	justify-content: space-between;
+	padding-inline: 25px;
+	padding-top: 30px;
+	padding-bottom: 30px;
+	background-color: #f9fbfd;
+	margin-top: 0;
+	span {
+		color: #0065fe;
+	}
+	p {
+		width: 150px;
+	}
+}
+.steps_img {
+	width: 100vw;
+	margin-top: 40px;
+	margin-bottom: -10px;
+}
+
+.features {
+	margin-top: 50px;
+	padding-inline: 25px;
+	display: flex;
+	justify-content: space-between;
+	span {
+		color: #0065fe;
+	}
+	p {
+		width: 400px;
+	}
+}
+.icon {
+	background-color: #c7dcfa;
+	border-radius: 100%;
+	width: 30px;
+	padding: 5px;
+}
+
+.grid {
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+}
